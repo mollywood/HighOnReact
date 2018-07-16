@@ -1,28 +1,81 @@
-.App {
-  text-align: center;
+body {
+  font-family: "Helvetica Neue", sans-serif;
 }
 
-.App-logo {
-  animation: App-logo-spin infinite 20s linear;
-  height: 80px;
-}
-
-.App-header {
-  background-color: #222;
-  height: 150px;
-  padding: 20px;
+h1 {
   color: white;
+  font-size: 28;
+  font-weight: 400;
 }
 
-.App-title {
-  font-size: 1.5em;
+h2 {
+  font-size: 22;
+  font-weight: 500  ;
 }
 
-.App-intro {
-  font-size: large;
+h4 {
+  color: #1369BE;
+  font-size: 18;
+  font-weight: 400;
+  margin-top: 20;
+  margin-bottom: 15;
 }
 
-@keyframes App-logo-spin {
-  from { transform: rotate(0deg); }
-  to { transform: rotate(360deg); }
+a {
+  color: white;
+  text-decoration: none;
+  font-size: 24;
 }
+
+p {
+  font-size: 13;
+}
+
+.nav {
+  background-color: #56A9F7;
+  display: flex;
+  padding: 0;
+}
+
+.title {
+  padding: 20;
+}
+
+.active {
+  padding-top: 42;
+  padding-left: 40;
+}
+
+.inactive {
+  padding-top: 43;
+  padding-left: 40;
+  font-weight: 100;
+}
+
+.curse {
+  background-color: #DDDEE0;
+  color: #53585E;
+  padding: 1 10 8 14;
+  text-align: justify;
+  margin: 20;
+}
+
+.content {
+  margin-left: 30;
+  margin-right: 30;
+}
+
+.orange {
+  background-color: #F1902D;
+  color: white;
+  display: flex;
+  font-size: 12;
+  padding-top: 3;
+  padding-bottom: 3;
+}
+
+.commentsnlikes {
+  padding-left: 10;
+  padding-right: 30;
+}
+

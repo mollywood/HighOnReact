@@ -6,13 +6,17 @@ export class Article extends Component {
 
     return (
 
-      <div className="article">
-        <h3>{this.props.title}</h3>
+      <div className="article" class="content">
+        <h4>{this.props.title}</h4>
         <p>{this.props.content}</p>
-        <ul>
-            <li>{this.props.comments}</li>
-            <li>{this.props.likes}</li>
-        </ul>
+        <div class="orange">
+            <div class="commentsnlikes">
+                {this.props.comments}
+            </div>
+            <div class="commentsnlikes">
+                {this.props.likes}
+            </div>
+        </div>
       </div>
 
     )
